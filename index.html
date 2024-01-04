@@ -18,7 +18,7 @@
 				font-family: "Segoe UI", sans-serif, verdana;
 				font-size: 1.2em;
 				margin: 0;
-				margin-top: 1.5em;
+				margin-top: 1.5em;    
 			}
 			@media (prefers-color-scheme: dark) {
 				body {
@@ -85,7 +85,6 @@
 			.profile_pic img {
 				display: block;
 				margin: auto;
-				border-radius: 160px;
 				overflow: hidden;
 				border-style: solid;
 				border-color: rgb(29, 26, 218);
@@ -230,6 +229,8 @@
 				display: flex;
 				flex-wrap: wrap;
 				justify-content: center;
+        
+        
 			}
 			.project-list-normal{
 				margin-bottom: 4em;
@@ -355,10 +356,10 @@
 						return ``; // no timestamp for image cards
 					return `<div class="timespan">${this.timespan == undefined ? `` : this.timespan}</div>`;
 				}
-				imgCardHtml(){
+				imgCardHtml(){  
 					if(this.card == undefined)
 						return ``;
-					return `<div class="proj-card"><a href="${this.link}"><img src="./images/projectcards/${this.card}"></a></div>`;
+					return `<div class="proj-card"><a href="${this.link}"><img src="${this.card}"></a></div>`;
 				}
 				containerClass(){
 					if(this.card == undefined)
@@ -464,10 +465,10 @@
 					`2021`, `interactive right-angle and general triangle solver` );
 				//flowstorm.card = `flowstorm.gif`;
 
-				let mathAnimations = new Project( `Math Animations`,
+				let mathAnimations = new Project( `Big Fish`,
 					`./mathvis/index.html`,
-					undefined, `various math animations & visualizations` );
-				mathAnimations.card = `mathanims.gif`;
+					undefined, `coupon mini-game for DeFacto` );    
+				mathAnimations.card = `bigfish.gif`;
 				
 
 				let nuts = new Project( `NUTS`, 
@@ -604,7 +605,7 @@
 		<div class="outer">
 			<div class="middle">
 				<div class="inner">
-					<div class="profile_pic"><img src="img1.jpg" width="300" height="300"></div>
+					<div class="profile_pic"><img src="img1.jpg" width="225" height="225"></div>
 					<span class="name">Selimcan Çakandemir</span><br>
 					<!--<span class="name_sub">I make things</span><br>-->
 					<div class="main_card">
@@ -613,13 +614,13 @@
 					</div>
 
 
-					<h3>Current Projects</h3>
+					<h3>Games I've made</h3>
 					<div class="project-list-cards" id="projects-current"><!-- populated by js--></div>
-					<h3>Side Projects</h3>
+					<h3>Games I've worked on</h3>
 					<div class="project-list-normal" id="projects-side"><!-- populated by js--></div>
-					<h3>Past Projects</h3>
+					<h3>Little side Projects</h3>
 					<div class="project-list-normal" id="projects-past"><!-- populated by js--></div>
-					<h3>Public Speaking & Interviews</h3>
+					<h3>Old Projects</h3>
 					<div class="project-list-normal" id="projects-public-speaking"><!-- populated by js--></div>
 					
 					
