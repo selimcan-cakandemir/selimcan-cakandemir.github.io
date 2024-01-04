@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     	<meta charset="utf-8" />
-    	<title>Selimcan</title>
+    	<title>Selimcan's stuff</title>
     	<link rel="shortcut icon" type="image/png" href="images/heart.png"/>
 		<link rel="preconnect" href="https://fonts.gstatic.com">
     	<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet">
@@ -420,53 +420,46 @@
 
 
 
-				let shapes = new Project( `Shapes`,
-					`https://acegikmo.com/shapes/`,
-					undefined, `an award-winning GPU based vector graphics library for Unity<br>
-						
-						<a href="https://acegikmo.com/shapes/docs/">Documentation</a> • <a href="https://assetstore.unity.com/packages/tools/particles-effects/shapes-173167">Asset Store</a>
-						
+				let shapes = new Project( `Gift Deck`,
+					`./giftdeck/giftdeck.html`,
+					undefined, `javascript memory game<br>
 					 ` );
-				shapes.card = `shapes.png`;
+				shapes.card = `giftdeck.gif`;
 
 				
-				let streamEmbers = new Project( `Embers of the Wilds`,
-					`https://regalgoblins.fandom.com/wiki/Embers_of_the_Wilds`,
-					undefined, `a live D&D campaign with<br>
-					<a href="https://twitch.tv/koibu">koibu</a>,
-					<a href="https://twitter.com/khyperia">khyperia</a> &
-					<a href="https://twitch.tv/lusterly">lusterly</a>.<br>airing Sundays 19:00 CET/CEST at <a href="https://twitch.tv/acegikmo">twitch.tv/acegikmo</a>` );
-				streamEmbers.card = `eow.png`;
+				let streamEmbers = new Project( `Dino Catch`,
+					`./dinocatch/dinocatch.html`,
+					undefined, `javascript whack-a-mole game<br>
+					` );
+				streamEmbers.card = `dinocatch.gif`;
 
 
-				let courses = new Project( `Game Dev Tutorials`,
-					`https://www.youtube.com/channel/UC7M-Wz4zK8oikt6ATcoTwBA`,
-					undefined, `free long-form educational videos<br> 
+				let courses = new Project( `Slinger Monkey`,
+					`./slingermonkey/slingermonkey.html`,
+					undefined, `another construct 3 game<br> 
 					
-					<a href="https://www.youtube.com/playlist?list=PLImQaTpSAdsD88wprTConznD1OY1EfK_V">Math</a> • 
-					<a href="https://www.youtube.com/watch?v=6xs0Saff940">Procedural Geometry</a><br>
-					<a href="https://www.youtube.com/playlist?list=PLImQaTpSAdsCnJon-Eir92SZMl7tPBS4Z">Shaders</a> • 
-					<a href="https://www.youtube.com/playlist?list=PLImQaTpSAdsBKEkUvKxw6p0tpwl7ylw0d">Tool Dev</a>
 					
 					` );
-				// mini tutorials on <a href="https://twitter.com/FreyaHolmer/status/1381256235211706375">Surface normals</a> • <a href="https://twitter.com/FreyaHolmer/status/1059137805912338434">Selection outline shaders</a> • <a href="https://twitter.com/FreyaHolmer/status/1107042443629940737">Rocket flame shader</a>
-				courses.card = `courses.png`;
+
+				courses.card = `slingermonkey.gif`;
 
 
-				let mathfs = new Project( `Mathfs`,
+				let mathfs = new Project( `Bizim Şehir`,
 					`https://github.com/FreyaHolmer/Mathfs`,
-					`2020-now`, `an open source extended math library for Unity, containing intersection tests, trajectory helpers,
-					trigonometry helpers, and much more!` );
-				let flowstorm = new Project( `Flowstorm`,
+					`2021-2022`, `an unfinished and unpublished 2D city building game` );
+				let flowstorm = new Project( `CutiePie`,
 					`https://twitter.com/freyaholmer/status/1187810005011050498`,
-					`2018-now`, `a racing game I work on every now and then while streaming on twitch! think of it like trackmania meets lunar lander meets super meat boy` );
-				let triSolver = new Project( `Triangle Solver`,
+					`2023`, `a photo reveal game in Unity` );
+				let triSolver = new Project( `StyleShot (published)`,
 					`https://acegikmo.com/trianglesolver/`,
-					`2021`, `interactive right-angle and general triangle solver` );
+					`2023`, `another coupon dropping mini-game for DeFacto` );
+				let bizimsehir = new Project( `Stories From Lost Worlds`,
+					`https://acegikmo.com/trianglesolver/`,
+					`2023`, `an experimental Unity platformer that had a lot of AI assets` );
 				//flowstorm.card = `flowstorm.gif`;
 
 				let mathAnimations = new Project( `Big Fish`,
-					`./mathvis/index.html`,
+					`./bigfish/bigfish.html`,
 					undefined, `coupon mini-game for DeFacto` );    
 				mathAnimations.card = `bigfish.gif`;
 				
@@ -492,9 +485,6 @@
 				let theBall = new Project( `The Ball: Portal 2 DLC`, 
 					`https://store.steampowered.com/app/35460/The_Ball/`,
 					`2011`, `as a level designer & artist for Portal-themed levels as part of <a href="https://en.wikipedia.org/wiki/Potato_Sack">Valve's Portal 2 ARG</a>`, [teotl, valve] );
-
-
-
 
 				let courseShaders = new Project( `Shaders`,
 					`https://www.youtube.com/playlist?list=PLImQaTpSAdsCnJon-Eir92SZMl7tPBS4Z`,
@@ -562,6 +552,7 @@
 				document.getElementById("projects-side").innerHTML =
 				triSolver +
 				flowstorm + 
+				bizimsehir +
 				mathfs;
 
 				document.getElementById("projects-past").innerHTML =
