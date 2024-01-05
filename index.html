@@ -447,16 +447,24 @@
 				let mathfs = new Project( `Bizim Şehir`,
 					`https://github.com/FreyaHolmer/Mathfs`,
 					`2021-2022`, `an unfinished and unpublished 2D city building game` );
+
+					mathfs.card = `bizimsehir.png`;
+
 				let flowstorm = new Project( `CutiePie`,
 					`https://twitter.com/freyaholmer/status/1187810005011050498`,
 					`2023`, `a photo reveal game in Unity` );
+
+					flowstorm.card = `cutiepie.gif`;
 				let triSolver = new Project( `StyleShot (published)`,
 					`https://acegikmo.com/trianglesolver/`,
 					`2023`, `another coupon dropping mini-game for DeFacto` );
+
+					triSolver.card = `styleshot.gif`;
+					
 				let bizimsehir = new Project( `Stories From Lost Worlds`,
 					`https://acegikmo.com/trianglesolver/`,
 					`2023`, `an experimental Unity platformer that had a lot of AI assets` );
-				//flowstorm.card = `flowstorm.gif`;
+					bizimsehir.card = `lostworlds.gif`;
 
 				let mathAnimations = new Project( `Big Fish`,
 					`./bigfish/bigfish.html`,
@@ -466,10 +474,15 @@
 
 				let nuts = new Project( `Retro shooter thing`, 
 					`https://store.steampowered.com/app/768450/NUTS/`,
-					`2020-2021`, `as a freelance tech artist`, nutsTeam );
+					`2020-2021`, `as a freelance tech artist` );
+
+					nuts.card = `retroshoot.gif`;
 				let rawmen = new Project( `Skidding car`, 
 					`https://rawmengame.com/`,
-					`2020`, `as a freelance tech artist`, animal );
+					`2020`, `as a freelance tech artist` );
+
+					rawmen.card = `skidcar.gif`;
+
 				let budgetCuts2 = new Project( `Demon game`,
 					`https://store.steampowered.com/app/1092430/Budget_Cuts_2_Mission_Insolvency/`,
 					`2018-2019`, `as a 3D artist & tech artist`, neat ); // the sequel to the first
@@ -604,9 +617,9 @@
 					<h3>Games I've made</h3>
 					<div class="project-list-cards" id="projects-current"><!-- populated by js--></div>
 					<h3>Games I've worked on</h3>
-					<div class="project-list-normal" id="projects-side"><!-- populated by js--></div>
+					<div class="project-list-cards" id="projects-side"><!-- populated by js--></div>
 					<h3>Little side Projects</h3>
-					<div class="project-list-normal" id="projects-past"><!-- populated by js--></div>
+					<div class="project-list-cards" id="projects-past"><!-- populated by js--></div>
 					<h3>Old Projects</h3>
 					<div class="project-list-normal" id="projects-public-speaking"><!-- populated by js--></div>
 					
