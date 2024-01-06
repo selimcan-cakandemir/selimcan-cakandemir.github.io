@@ -420,104 +420,95 @@
 
 
 
-				let shapes = new Project( `Gift Deck`,
+				let giftdeck = new Project( `Gift Deck`,
 					`./giftdeck/giftdeck.html`,
 					undefined, `javascript memory game<br>
 					 ` );
-				shapes.card = `giftdeck.gif`;
+				giftdeck.card = `giftdeck.gif`;
 
 				
-				let streamEmbers = new Project( `Dino Catch`,
+				let dinocatch = new Project( `Dino Catch`,
 					`./dinocatch/dinocatch.html`,
 					undefined, `javascript whack-a-mole game<br>
 					` );
-				streamEmbers.card = `dinocatch.gif`;
+				dinocatch.card = `dinocatch.gif`;
 
 
-				let courses = new Project( `Slinger Monkey`,
+				let slingermonkey = new Project( `Slinger Monkey`,
 					`./slingermonkey/slingermonkey.html`,
 					undefined, `another construct 3 game<br> 
 					
 					
 					` );
 
-				courses.card = `slingermonkey.gif`;
+				slingermonkey.card = `slingermonkey.gif`;
 
 
-				let mathfs = new Project( `Bizim Şehir`,
-					`https://github.com/FreyaHolmer/Mathfs`,
+				let bizims = new Project( `Bizim Şehir`,
+					``,
 					`2021-2022`, `an unfinished and unpublished 2D city building game` );
 
-					mathfs.card = `bizimsehir.png`;
+					bizims.card = `bizimsehir.png`;
 
-				let flowstorm = new Project( `CutiePie`,
-					`https://twitter.com/freyaholmer/status/1187810005011050498`,
+				let ctpie = new Project( `CutiePie`,
+					``,
 					`2023`, `a photo reveal game in Unity` );
 
-					flowstorm.card = `cutiepie.gif`;
-				let triSolver = new Project( `StyleShot (published)`,
-					`https://acegikmo.com/trianglesolver/`,
+					ctpie.card = `cutiepie.gif`;
+				let styleshot = new Project( `StyleShot (published)`,
+					`https://apps.apple.com/tr/app/defacto-clothing-shopping/id1018207358`,
 					`2023`, `another coupon dropping mini-game for DeFacto` );
 
-					triSolver.card = `styleshot.gif`;
+					styleshot.card = `styleshot.gif`;
 					
 				let bizimsehir = new Project( `Stories From Lost Worlds`,
-					`https://acegikmo.com/trianglesolver/`,
+					``,
 					`2023`, `an experimental Unity platformer that had a lot of AI assets` );
 					bizimsehir.card = `lostworlds.gif`;
 
-				let mathAnimations = new Project( `Big Fish`,
+				let bigfish = new Project( `Big Fish`,
 					`./bigfish/bigfish.html`,
 					undefined, `coupon mini-game for DeFacto` );    
-				mathAnimations.card = `bigfish.gif`;
+				bigfish.card = `bigfish.gif`;
 				
 
-				let nuts = new Project( `Retro shooter thing`, 
-					`https://store.steampowered.com/app/768450/NUTS/`,
-					`2020-2021`, `as a freelance tech artist` );
+				let retroshooterthing = new Project( `Retro shooter thing`, 
+					`https://github.com/selimcan-cakandemir/Halfshooter-master`,
+					`2020-2021`, `with procedural animations` );
 
-					nuts.card = `retroshoot.gif`;
-				let rawmen = new Project( `Skidding car`, 
-					`https://rawmengame.com/`,
-					`2020`, `as a freelance tech artist` );
+					retroshooterthing.card = `retroshoot.gif`;
+				let skiddycar = new Project( `Skidding car`, 
+					`https://github.com/selimcan-cakandemir/skid-shift`,
+					`2020`, `learning vector math` );
 
-					rawmen.card = `skidcar.gif`;
+					skiddycar.card = `skidcar.gif`;
 
-				let budgetCuts2 = new Project( `Demon game`,
-					`https://store.steampowered.com/app/1092430/Budget_Cuts_2_Mission_Insolvency/`,
-					`2018-2019`, `as a 3D artist & tech artist`, neat ); // the sequel to the first
-				let budgetCuts = new Project( `Dinosaur game clone`,
+				let demongame = new Project( `Demon game`,
+					`https://github.com/selimcan-cakandemir/demondx-game`,
+					`2018-2019`, `testing some radius stuff` ); // the sequel to the first
+					demongame.card = `demondx.gif`;
+				let dinogameclone = new Project( `Dinosaur game clone`,
 					`https://store.steampowered.com/app/4009	40/Budget_Cuts/`,
-					`2016-2018`, `as co-founder of Neat Corp, designer, coder, 3D artist, tool dev & tech artist`, [neat, valve] );
-				let shaderForge = new Project( `Magnet thing`,
-					`https://github.com/FreyaHolmer/ShaderForge`,
+					`2016-2018`, `google dinosaur game clone`);
+					dinogameclone.card = `dinosaur.gif`;
+				let magnetthing = new Project( `Magnet thing`,
+					`https://github.com/selimcan-cakandemir/rollic-picker-3D`,
 					`2014-2018`, `a node-based shader editor for Unity` );
-				let unmech = new Project( `Runner`,
-					`https://store.steampowered.com/app/211180/Unmechanical/`,
-					`2010-2012`, `as a 3D artist & tech artist`, talawa ); // a puzzle-adventure game
-				let theBall = new Project( `The Ball: Portal 2 DLC`, 
-					`https://store.steampowered.com/app/35460/The_Ball/`,
-					`2011`, `as a level designer & artist for Portal-themed levels as part of <a href="https://en.wikipedia.org/wiki/Potato_Sack">Valve's Portal 2 ARG</a>`, [teotl, valve] );
+					magnetthing.card = `magnetthing.gif`;
+				let runnerthing = new Project( `Runner`,
+					`https://github.com/selimcan-cakandemir/runner-demo-game`,
+					`2010-2012`, `as a 3D artist & tech artist` );
+					runnerthing.card = `runner.gif`;
 
-				let courseShaders = new Project( `Shaders`,
-					`https://www.youtube.com/playlist?list=PLImQaTpSAdsCnJon-Eir92SZMl7tPBS4Z`,
-					``, `how to write shaders, in 3 parts` );
-				let courseMath = new Project( `Math`,
-					`https://www.youtube.com/playlist?list=PLImQaTpSAdsD88wprTConznD1OY1EfK_V`,
-					``, `the essential math for game development, in 4 parts` );
-				let courseToolDev = new Project( `Tool Dev`,
-					`https://www.youtube.com/playlist?list=PLImQaTpSAdsBKEkUvKxw6p0tpwl7ylw0d`,
-					``, `developing editor tools in Unity, in 4 parts` );
-				let courseProcGen = new Project( `Procedural Geometry`,
-					`https://www.youtube.com/watch?v=6xs0Saff940`,
-					``, `generating meshes from code` );
 
-				let interHMS = new Project( `TDS-10`,
-					`https://vimeo.com/482361448`,
-					`2020 Nov`, `interview with Abner Coimbre on shaders, going indie, and more` );
-				let interHansel = new Project( `bullet knight`,
-					`https://hanselminutes.simplecast.com/episodes/visualizing-math-with-freya-holmer-Ua6SmME1`,
-					`2020 Jan`, `interview with Scott Hanselman on visualizing math` );
+				let tds10 = new Project( `TDS-10`,
+					`https://selimcan-cakandemir.itch.io/tds-10`,
+					`2020 Nov`);
+					tds10.card = `tds10.png`;
+				let bkk = new Project( `bullet knight`,
+					`https://selimcan-cakandemir.itch.io/bullet-knight`,
+					`2020 Jan` );
+					bkk.card = `bulletknight.png`;
 
 
 				// conferences
@@ -528,61 +519,46 @@
 				let unite15 = new Company( `Unite 2015`, `https://unity.com/events/unite`, `at` );
 
 
-				let talkLerp = new Project( `schmuppem`,
-					`https://www.youtube.com/watch?v=R6UB7mVO3fY&t=214s`,
-					`2019 Aug`, `a talk on the hidden powers of Lerp and InverseLerp`, indiecadeEurope19 );
-				let talkGlitchCon = new Project( `space runner`, 
+				let schump = new Project( `schmuppem`,
+					`https://selimcan-cakandemir.itch.io/schmuppem`,
+					`2019 Aug` );
+					schump.card = `schmuppem.png`;
+				let spacerunner = new Project( `space runner`, 
 					`https://www.youtube.com/watch?v=Ybc0QzTgSIk`,
-					`2018 Aug`, `a talk about mental health, motivation and learning`, glitchcon18 );
-				let talkPortal = new Project( `The portal locomotion of Budget Cuts`,
-					`https://www.youtube.com/watch?v=f786ak3GKQo`,
-					`2018 Mar`,
-					`a talk on the design and implementation of the portal in Budget Cuts`, gdc18 );
-				let talkProcGen = new Project( `Spline-based procedural geometry`,
-					`https://www.youtube.com/watch?v=6xs0Saff940`,
-					`2015 Aug`, `a talk on how to generate meshes along splines 
-					[<a href="https://docs.google.com/presentation/d/10XjxscVrm5LprOmG-VB2DltVyQ_QygD26N6XC2iap2A/edit#slide=id.p">slides</a>]`, unite15 );
-				let talkShaderForge = new Project( `Shader Forge - making Shaders accessible to artists`,
-					`https://www.youtube.com/watch?v=WMHpBpjWUlY`,
-					`2014 Aug`, `a talk on why and how I made Shader Forge`, unite14 );
+					`2018 Aug` );
+					spacerunner.card = `spacerunner.png`;
 
 
-
-				
-				let streamDDR = new Project( `Dance Dance Revolution workout`,
-					`https://twitter.com/FreyaHolmer/status/1380899033208782848`,
-					undefined,
-					`I play my DDR/StepMania workouts on stream, usually playing doubles (playing on two dance pads)`);
 
 
 
 				document.getElementById("projects-current").innerHTML =
-				shapes +
-				mathAnimations +
-				courses +
-				streamEmbers;
+				giftdeck +
+				bigfish +
+				slingermonkey +
+				dinocatch;
 
 				document.getElementById("projects-side").innerHTML =
-				triSolver +
-				flowstorm + 
+				styleshot +
+				ctpie + 
 				bizimsehir +
-				mathfs;
+				bizims;
 
 				document.getElementById("projects-past").innerHTML =
-				nuts +
-				rawmen +
-				budgetCuts2 +
-				budgetCuts +
-				shaderForge +
-				unmech;
+				retroshooterthing +
+				skiddycar +
+				demongame +
+				dinogameclone +
+				magnetthing +
+				runnerthing;
 
 				
 
 				document.getElementById("projects-public-speaking").innerHTML =
-				interHMS +
-				interHansel +
-				talkLerp +
-				talkGlitchCon;
+				tds10 +
+				bkk +
+				schump +
+				spacerunner;
 
 
 				//	Illustration • Animations • Music<br>
@@ -620,8 +596,8 @@
 					<div class="project-list-cards" id="projects-side"><!-- populated by js--></div>
 					<h3>Little side Projects</h3>
 					<div class="project-list-cards" id="projects-past"><!-- populated by js--></div>
-					<h3>Old Projects</h3>
-					<div class="project-list-normal" id="projects-public-speaking"><!-- populated by js--></div>
+					<h3>First games ever</h3>
+					<div class="project-list-cards" id="projects-public-speaking"><!-- populated by js--></div>
 					
 					
 				</div>
